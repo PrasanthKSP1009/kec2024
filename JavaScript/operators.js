@@ -25,7 +25,11 @@ if (rel1 == rel2){
 }
 if (rel1 === rel2){
     console.log("Both values are same not types so it's printing false\n=== will check for both content and datatype");
-    console.log(rel1 == rel2);
+    console.log(rel1 === rel2);
+}
+else{
+    console.log("Both values are same not types so it's printing false\n=== will check for both content and datatype");
+    console.log(rel1 === rel2);
 }
 
 // 5.Logical operator
