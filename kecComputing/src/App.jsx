@@ -9,6 +9,8 @@ import UseEffect from "./Components/FunctionalComponents/UseEffect";
 import UseRef from "./Components/FunctionalComponents/UseRef";
 import ExamResults from "./Components/FunctionalComponents/UseContext";
 import UseMemo from "./Components/FunctionalComponents/UseMemo";
+import SignupForm from "./Components/FunctionalComponents/Signup";
+import LoginForm from "./Components/FunctionalComponents/Login";
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
           <Route path="/use-ref" element = {<UseRef />}></Route>
           <Route path="/use-context" element = {<ExamResults />} />
           <Route path="/use-memo" element = {<UseMemo />}/>
+          <Route path="/signup" element = {<SignupForm />}/>
+          <Route path="/login" element = {<LoginForm />}/>
         </Routes>
       </BrowserRouter>
     </div>

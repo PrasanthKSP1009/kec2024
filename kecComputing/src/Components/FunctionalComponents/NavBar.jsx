@@ -45,6 +45,16 @@ var NavBar = () => {
               Contact
             </Link>
           </li>
+          <li>
+            <Link to="/signup" className="link">
+              Sign Up
+            </Link>
+          </li>
+          <li>
+            <Link to="/login" className="link">
+              Login
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
